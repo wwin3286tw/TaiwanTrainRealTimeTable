@@ -1,13 +1,13 @@
 language: python
 python:
-    - "2.6"
-    - "2.7"
+ - "2.6"
+ - "2.7"
+ - "3.5"
+ - "3.6"
 script:
-    - python debug.py
+ - python debug.py
 notifications:
-  email:
-    recipients:
-      - wwin3286tw@gmail.com
-      - wwin3286tw@yahoo.com.tw
-    on_success: always
-    on_failure: always
+ email:
+ recipients:
+ on_success: always
+ on_failure: always
